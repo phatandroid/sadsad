@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.liistiewcoban.MainActivity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+      <EditText
+          android:textSize="25sp"
+          android:id="@+id/edittexttensinhvien"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+      <Button
+          android:layout_marginLeft="10dp"
+          android:layout_below="@+id/edittexttensinhvien"
+          android:textAllCaps="false"
+          android:text="Cập nhật"
+          android:id="@+id/buttoncapnhat"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <Button
+          android:layout_marginRight="10dp"
+          android:layout_below="@+id/edittexttensinhvien"
+          android:layout_alignParentRight="true"
+          android:textAllCaps="false"
+          android:text="Thêm"
+          android:id="@+id/buttonthem"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+   </RelativeLayout>
+   <ListView
+       android:id="@+id/listview"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+   </ListView>
+
+</LinearLayout>
